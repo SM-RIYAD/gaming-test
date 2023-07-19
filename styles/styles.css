@@ -520,7 +520,11 @@ line-height: normal;
 
     .banner-content {
 
-        padding: 10px;
+       
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
 
     .banner img {
@@ -535,7 +539,10 @@ line-height: normal;
         justify-content: start;
         gap: 10px
     }
-
+    .special-effect {
+   
+        text-align: start;
+    }
     .online-games {
         margin: 0 10px;
 
@@ -563,12 +570,7 @@ line-height: normal;
     .text-secondary{
         font-size:15px;
     }
-    .genre{
-
-       
-        
-       
-    }
+ 
     .row{
         padding-right: 30px;
         padding-left: 0;
