@@ -479,6 +479,8 @@ line-height: normal;
 }
 .footer-last-text{
     margin-bottom: 100px;
+    display: flex;
+    gap:10px;
 }
 /* responsive-styles */
 /* mobile devices */
@@ -671,6 +673,16 @@ font-size: 14px;
         .footer-last-text{
             margin-bottom: 50px;
             margin-top: 50px;
+            flex-direction: column;
+            gap: 0;
+            
+        }
+        .footer-last-text p{
+            margin-top: 5px;
+            margin-bottom:0;
+
+            margin-left: 0;
+            margin-right: 0;
         }
 }
 
